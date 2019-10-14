@@ -1,0 +1,73 @@
+<ion-content>
+        <ion-grid style="height: 100%">
+                <!-- <ion-row justify-content-center align-items-center style="height: 100%"> -->
+
+                    <form>
+                      <ion-list>
+
+                        <ion-img width="50 px" height="50 px" src="../assets/Picture8.png"></ion-img>
+
+                        <ion-card>
+                                <ion-item>
+                                        <ion-icon slot="start" name="school"></ion-icon>
+                                        <ion-label>Institut</ion-label>
+                                        <ion-select placeholder="Institut" cancel-text="BATAL" ok-text="OK">
+                                          <ion-select-option value="ILO">ILP Kuala Lumpur</ion-select-option>
+                                          <ion-select-option value="ilpPerai">ILP Perai</ion-select-option>
+                                          <ion-select-option value="ilpPG">ILP Pasir Gudang</ion-select-option>
+                                          <ion-select-option value="ilpIpoh">ILP Kuala Terengganu</ion-select-option>
+                                          <ion-select-option value="ilpLabuan">ILP Labuan</ion-select-option>
+                                          <ion-select-option value="ilpBK">ILP Ipoh</ion-select-option>
+                                          <ion-select-option value="adtecBintulu">ILP Kuantan</ion-select-option>
+                                          <ion-select-option value="ILO">ILP Bukit Katil</ion-select-option>
+                                          <ion-select-option value="ilpPerai">ILP Jitra</ion-select-option>
+                                          <ion-select-option value="ilpPG">ILP Kota Bharu</ion-select-option>
+                                          <ion-select-option value="ilpIpoh">JMTI</ion-select-option>
+                                          <ion-select-option value="ilpLabuan">ADTEC Shah Alam</ion-select-option>
+                                          <ion-select-option value="ilpBK">ADTEC Batu Pahat</ion-select-option>
+                                          <ion-select-option value="adtecBintulu">ADTEC Kulim</ion-select-option>
+                                          <ion-select-option value="ILO">ADTEC Melaka</ion-select-option>
+                                          <ion-select-option value="ilpPerai">ILP Tangkak</ion-select-option>
+                                          <ion-select-option value="ilpPG">ILP Pedas</ion-select-option>
+                                          <ion-select-option value="ilpIpoh">ILP Kangar</ion-select-option>
+                                          <ion-select-option value="ilpLabuan">ILP Kota Samarahan</ion-select-option>
+                                          <ion-select-option value="ilpBK">ILP Kota Kinabalu</ion-select-option>
+                                          <ion-select-option value="adtecBintulu">ILP Selandar</ion-select-option>
+                                        </ion-select>
+                                      </ion-item>
+                        </ion-card>
+
+            <ion-card>
+                <ion-item>
+                  <ion-icon slot="start" name="people"></ion-icon>
+                  <ion-input placeholder="ID Pengguna" type="userID" name="userID"></ion-input>
+                </ion-item>
+            </ion-card>
+
+            <ion-card>
+               <ion-item>
+                  <ion-icon slot="start" name="key"></ion-icon>
+                  <ion-input placeholder="Katalaluan" type="password" name="password"></ion-input>
+                </ion-item>
+            </ion-card>
+
+            <ion-card>
+                    <ion-item>
+                       <ion-icon slot="start" name="key"></ion-icon>
+                       <ion-input placeholder="No. Telefon" type="password" name="password"></ion-input>
+                     </ion-item>
+                 </ion-card>
+            </ion-list>
+                    <!-- BUTTON -->
+
+                        <ion-button color="danger" expand="full" (click)="login()">
+                            DAFTAR
+                        </ion-button>
+                    </form>
+
+                <!-- </ion-row> -->
+              </ion-grid>
+
+</ion-content>
+
+

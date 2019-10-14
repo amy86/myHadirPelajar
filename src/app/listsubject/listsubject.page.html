@@ -1,0 +1,100 @@
+<ion-header translucent>
+        <ion-toolbar color="secondary">
+          <ion-buttons slot="start">
+          </ion-buttons>
+          <ion-title>Jadual Kelas</ion-title>
+          <ion-buttons slot="end">
+                <ion-button (click)="logout()"><ion-icon name="log-out"></ion-icon></ion-button>
+              </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+
+<ion-content>
+<ion-grid>
+        <ion-card>
+
+    <ion-row>
+        <ion-card-content>Nama : </ion-card-content>
+    </ion-row>
+
+    <ion-row>
+        <ion-card-content>NDP : </ion-card-content>
+    </ion-row>
+
+    <ion-row>
+        <ion-card-content>Semester : </ion-card-content>
+    </ion-row>
+
+    <ion-row>
+        <ion-card-content>Kursus : </ion-card-content>
+    </ion-row>
+
+    <ion-row>
+        <ion-card-content>Sesi : </ion-card-content>
+                    <ion-col>
+                            <ion-select placeholder="Pilih sesi" cancel-text="BATAL" ok-text="OK">
+                                    <ion-select-option value="22018">2/2018</ion-select-option>
+                                    <ion-select-option value="12019">1/2019</ion-select-option>
+                                    <ion-select-option value="22019">2/2019</ion-select-option>
+                            </ion-select>
+                    </ion-col>
+
+</ion-row>
+
+    <ion-row>
+        <ion-card-content>
+            <ion-list>
+                                <ion-item href="choose">
+                                    <ion-label>
+                                      <h2>Computer Application</h2>
+                                      <h3>Isnin</h3>
+                                      <p>8.00 pg - 9.30 pg</p>
+                                    </ion-label>
+                                  </ion-item>
+
+                                  <ion-item href="choose">
+                                    <ion-label>
+                                      <h2>Computer Network</h2>
+                                      <h3>Isnin</h3>
+                                      <p>10.00 pg - 11.30 pg</p>
+                                  </ion-label>
+                                  </ion-item>
+
+                                  <ion-item href="choose">
+                                    <ion-label>
+                                      <h2>Computer Network</h2>
+                                      <h3>Isnin</h3>
+                                      <p>10.00 pg - 11.30 pg</p>
+                                  </ion-label>
+                              </ion-item>
+
+                              <ion-item href="choose">
+                                    <ion-label>
+                                      <h2>Computer Network</h2>
+                                      <h3>Isnin</h3>
+                                      <p>10.00 pg - 11.30 pg</p>
+                                  </ion-label>
+                              </ion-item>
+
+                              <ion-item href="choose">
+                                    <ion-label>
+                                      <h2>Computer Network</h2>
+                                      <h3>Isnin</h3>
+                                      <p>10.00 pg - 11.30 pg</p>
+                                  </ion-label>
+                              </ion-item>
+                  </ion-list>
+                </ion-card-content>
+    </ion-row>
+
+    <ion-row>
+    </ion-row>
+
+    <ion-card-content>
+            Jadual adalah merujuk kepada sesi pembelajaran semasa
+    </ion-card-content>
+
+        </ion-card>
+</ion-grid>
+
+</ion-content>

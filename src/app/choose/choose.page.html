@@ -1,0 +1,55 @@
+<ion-header translucent>
+        <ion-toolbar color="secondary">
+          <ion-buttons slot="start">
+            <ion-back-button defaultHref="listsubject"></ion-back-button>
+          </ion-buttons>
+          <ion-title>Daftar Kehadiran</ion-title>
+          <ion-buttons slot="end">
+                <ion-button (click)="logout()"><ion-icon name="log-out"></ion-icon></ion-button>
+              </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+
+<ion-content>
+
+    <ion-card>
+        <ion-grid>
+            <ion-row>
+                    <ion-card-content>Subjek : Computer Application</ion-card-content>
+                </ion-row>
+
+                <ion-row>
+                    <ion-card-content>Hari : Isnin</ion-card-content>
+                </ion-row>
+
+                <ion-row>
+                    <ion-card-content>Masa : 8.00 pg - 9.30 pg</ion-card-content>
+                </ion-row>
+
+        </ion-grid>
+        <ion-button color="secondary" expand="full">
+                    IMBAS KOD QR
+                  </ion-button>
+
+                  <ion-button color="secondary" expand="full">
+                    PENGESAHAN LOKASI
+                  </ion-button>
+
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+                BILA DAH BUAT PILIHAN IMBAS KOD QR ATAU PENGESAHAN LOKASI, AKTIVITI AKAN BERLAKU DI CARD INI
+         </ion-card-content>
+         <ion-card-content>
+                Alert if berjaya: Anda Berjaya hadir ke kelas (Nama Subjek) pada (Tarikh) Jam (Masa)
+         </ion-card-content>
+        <!-- <ion-button (click)="presentAlert()">
+            Click me
+        </ion-button> -->
+
+    </ion-card>
+
+</ion-content>
+
+
